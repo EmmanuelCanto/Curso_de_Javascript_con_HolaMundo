@@ -1,0 +1,10 @@
+
+let array = [2,5,7,15,-5,-100,55]
+
+function cuantosPositivos(array){
+    for (num of array){
+        console.log(num)
+    }
+}
+
+cuantosPositivos(array)

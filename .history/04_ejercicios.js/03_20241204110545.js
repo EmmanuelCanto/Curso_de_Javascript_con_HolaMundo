@@ -1,0 +1,5 @@
+
+
+function getByindx(arr, indx){
+    
+}

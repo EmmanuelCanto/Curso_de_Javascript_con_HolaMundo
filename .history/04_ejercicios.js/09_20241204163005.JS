@@ -1,0 +1,23 @@
+
+
+let pares = [
+[1, { name: "Nicolas" }],
+[2, { name: "Felipe" }],
+[3, { name: "Chanchito" }],
+]
+
+function toPairs(arr){
+let pares = []
+for (let prop in arr){
+    let elemento = arr[prop]
+    pares[prop] = [elemento.id, elemento]
+    
+}
+return pares
+}
+
+console.log(toPairs(array))
+
+
+
+
